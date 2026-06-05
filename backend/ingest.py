@@ -10,7 +10,8 @@ from langchain_community.vectorstores import Chroma
 
 from embeddings import get_embedding_model
 
-CHROMA_PATH = "../chroma_db"
+# Render-friendly path
+CHROMA_PATH = "chroma_db"
 
 embedding_model = get_embedding_model()
 
